@@ -1,2 +1,4 @@
 from .usuariosViewCrud import usuarios_api_view
 from .usuariosViewCrud import usuarios_detail_view
+from .pacientesViewCrud import pacientes_api_view
+from .pacientesViewCrud import pacientes_detail_view

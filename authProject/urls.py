@@ -25,4 +25,6 @@ path('user/', views_authApp.UserCreateView.as_view()),
 path('user/<int:pk>/', views_authApp.UserDetailView.as_view()),
 path('usuario/', views_hospital.usuarios_api_view),
 path('usuario/<int:pk>/', views_hospital.usuarios_detail_view),
+path('paciente/', views_hospital.pacientes_api_view),
+path('paciente/<int:pk>/', views_hospital.pacientes_detail_view),
 ]
